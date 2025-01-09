@@ -134,7 +134,7 @@ def mostrar_resultados(resultados_separados, resultados_ensamble, tiempo):
 #  Función main
 def main():
     # Cargar y preprocesar datos
-    X, y = cargar_y_preprocesar_datos('StudentPerformanceFactors.csv')
+    X, y = cargar_y_preprocesar_datos('dataset/StudentPerformanceFactors.csv')
 
     # Dividir los datos
     X_train, X_test, y_train, y_test = dividir_datos(X, y)
