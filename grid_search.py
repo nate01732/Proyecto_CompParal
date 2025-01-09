@@ -58,7 +58,7 @@ def evaluate_set(hyperparameter_set, X_train, X_test, y_train, y_test, return_di
 if __name__ == '__main__':
 
     # Cargar y preprocesar datos
-    X, y = cargar_y_preprocesar_datos('dataset/StudentPerformanceFactors.csv')
+    X, y = cargar_y_preprocesar_datos('StudentPerformanceFactors.csv')
 
     # Dividir los datos
     X_train, X_test, y_train, y_test = dividir_datos(X, y)
